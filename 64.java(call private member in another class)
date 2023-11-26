@@ -1,0 +1,23 @@
+class Data
+{
+    private String name;
+   
+    public void set(String n)
+    {
+       this.name=n;
+    }
+   
+    public String get()
+    {
+        return this.name;
+    }
+}
+
+public class Main1{
+    public static void main(String[] args)
+    {
+        Data d1 = new Data();
+        d1.set("Hello World!");
+        d1.get();
+    }
+}
