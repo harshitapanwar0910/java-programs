@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args)
+    {
+        String s=null;
+        int arr[]={10, 20, 30};
+        try
+        {
+           // System.out.println(s.length());
+            System.out.println(arr[3]);
+        }
+        catch(ArrayIndexOutOfBoundsException e1)
+        {
+            System.out.println("Exception Index Out oF Bounds : "+e1);
+        }
+        catch(NullPointerException e2)
+        {
+            System.out.println("Exception encountered"+e2);
+        }
+    }
+}
