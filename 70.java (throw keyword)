@@ -1,0 +1,17 @@
+public class Main
+{
+    public void Num(int num){
+        if(num<1)
+        {
+            throw new ArithmeticException("\nNumber is negative, cannot calculate square.");
+        }
+        else{
+            System.out.println("Square of "+num+" is "+(num*num));
+        }
+    }
+public static void main(String[] args) {
+   Main m = new Main();
+   m.Num(-3);
+System.out.println("rest of the code...");
+}
+}
